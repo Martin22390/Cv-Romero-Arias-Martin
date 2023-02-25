@@ -1,4 +1,4 @@
-function myfunction() { document.getElementById("demo").innerHTML = "Enviado"}
+function myfunction() { document.getElementById("demo").innerHTML = "Enviado", alert("Gracias por tu mensaje!!")}
 
 
 function myFunction() {

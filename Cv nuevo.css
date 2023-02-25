@@ -42,7 +42,18 @@ section#primero{
     display: flex;
     flex-direction: row;
     justify-content: left;
+    max-width:1366px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
     
+    
+}
+
+.contenedor{
+    position:relative;
+    width:1366px;
+    height: auto;
 }
 
 .container{
@@ -55,7 +66,7 @@ section#primero{
     align-content: center;
 }
     .numerouno{
-        height: 1000px;
+        height: auto;
         background-color: #78909c;
         align-items: center;
         align-content: center;
@@ -82,7 +93,7 @@ section#primero{
         font-size: 15px;
     }
     .numerodos{
-        height: 1000px;
+        height: auto;
         width: 900px;
         align-items: center;
         align-content: center;
